@@ -19,11 +19,12 @@ int main()
                 c++;
             }
         }
-        if(c>0)
+        if(c==2)
         {
             printf("yes");
             break;
         }
+                   
     }
     if(c==0)
     {

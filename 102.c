@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int n,i,j,t,sum=0;
+  
+int n,i,j,t,s=0;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
@@ -14,8 +15,8 @@ for(i=0;i<n;i++)
 {
 if(a[i]<a[i+1])
 {
-sum=sum+a[i+1];
+s=s+a[i+1];
 }
 }
-printf("%d",sum);
+printf("%d",s);
 }
